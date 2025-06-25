@@ -1,4 +1,4 @@
-package dev.rajen.productservice.models.cardinalities;
+package dev.rajen.miniecommerce.models.cardinalities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -6,7 +6,7 @@ import jakarta.persistence.Inheritance;
 import jakarta.persistence.InheritanceType;
 
 @Entity
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public class ContractualEmployee extends Employee{
     @Id
     private String alias;

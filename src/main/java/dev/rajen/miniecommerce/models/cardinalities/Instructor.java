@@ -1,4 +1,4 @@
-package dev.rajen.productservice.models.cardinalities;
+package dev.rajen.miniecommerce.models.cardinalities;
 
 import jakarta.persistence.Entity;
 
